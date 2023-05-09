@@ -38,7 +38,7 @@ st.set_page_config(
 # read data
 def read_data():
     airport_df = pd.read_csv(
-        '/Users/brenthoang/Library/CloudStorage/OneDrive-BentleyUniversity/CS 230/Final Project/airport-codes_csv.csv').set_index(
+        'airport-codes_csv.csv').set_index(
         'ident')
     return airport_df
 
@@ -53,7 +53,7 @@ def sample_data():
 st.title(':orange[Airport Around the World] :small_airplane:')
 
 airport_image = Image.open(
-    '/Users/brenthoang/Library/CloudStorage/OneDrive-BentleyUniversity/CS 230/Final Project/changi_airport.jpeg')
+    'changi_airport.jpeg')
 st.image(airport_image, caption='Changi Airport by Wikipedia')
 
 st.write(
