@@ -38,7 +38,7 @@ st.set_page_config(
 # read data
 def read_data():
     airport_df = pd.read_csv(
-        'airport-codes_csv.csv').set_index(
+        'https://raw.githubusercontent.com/brenthoang12/airport-app/main/airport-codes_csv.csv').set_index(
         'ident')
     return airport_df
 
