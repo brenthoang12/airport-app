@@ -105,9 +105,7 @@ def elevation_table(country):
 
 st.title(':orange[User Interactive Space] :hammer_and_wrench:')
 
-airport_image = Image.open(
-    'https://raw.githubusercontent.com/brenthoang12/airport-app/main/denver_airport.webp')
-st.image(airport_image, caption='Denver Airport by George Rose')
+st.image('https://cdn.vox-cdn.com/uploads/chorus_asset/file/8566493/GettyImages_670570656.jpg', caption='Denver Airport by George Rose')
 
 st.write("In this page, you can customize data according to your interest. The first part is dedicated to "
          "**extracting airports data** from a selected country. The second part is for **comparing two or three countries "
