@@ -12,7 +12,7 @@ st.set_page_config(
 # ----------------------------------- Define Function
 def read_data():
     airport_df = pd.read_csv(
-        '/Users/brenthoang/Library/CloudStorage/OneDrive-BentleyUniversity/CS 230/Final Project/airport-codes_csv.csv').set_index(
+        'https://raw.githubusercontent.com/brenthoang12/airport-app/main/airport-codes_csv.csv').set_index(
         'ident')
     return airport_df
 
