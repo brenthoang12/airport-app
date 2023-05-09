@@ -53,7 +53,7 @@ def sample_data():
 st.title(':orange[Airport Around the World] :small_airplane:')
 
 airport_image = Image.open(
-    'changi_airport.jpeg')
+    'https://github.com/brenthoang12/airport-app/blob/06f824e8a4a5852ef6fc4b71cdcb6036096cca16/changi_airport.jpeg')
 st.image(airport_image, caption='Changi Airport by Wikipedia')
 
 st.write(
