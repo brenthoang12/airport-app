@@ -52,9 +52,8 @@ def sample_data():
 # ----------------------------------- Displayed
 st.title(':orange[Airport Around the World] :small_airplane:')
 
-airport_image = Image.open(
-    'https://github.com/brenthoang12/airport-app/blob/06f824e8a4a5852ef6fc4b71cdcb6036096cca16/changi_airport.jpeg')
-st.image(airport_image, caption='Changi Airport by Wikipedia')
+
+st.image('https://upload.wikimedia.org/wikipedia/commons/e/e9/JewelSingaporeVortex1.jpg', caption='Changi Airport by Wikipedia')
 
 st.write(
     "As of September 2021, there were **over 40,000 airports around the world** (World Bank's World Development Indicators)."
