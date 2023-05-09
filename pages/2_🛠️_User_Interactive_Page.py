@@ -19,7 +19,7 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 # read data
 def read_data():
     airport_df = pd.read_csv(
-        '/Users/brenthoang/Library/CloudStorage/OneDrive-BentleyUniversity/CS 230/Final Project/airport-codes_csv.csv').set_index(
+        'https://raw.githubusercontent.com/brenthoang12/airport-app/main/airport-codes_csv.csv').set_index(
         'ident')
     return airport_df
 
@@ -106,7 +106,7 @@ def elevation_table(country):
 st.title(':orange[User Interactive Space] :hammer_and_wrench:')
 
 airport_image = Image.open(
-    '/Users/brenthoang/Library/CloudStorage/OneDrive-BentleyUniversity/CS 230/Final Project/denver_airport.webp')
+    'https://raw.githubusercontent.com/brenthoang12/airport-app/main/denver_airport.webp')
 st.image(airport_image, caption='Denver Airport by George Rose')
 
 st.write("In this page, you can customize data according to your interest. The first part is dedicated to "
